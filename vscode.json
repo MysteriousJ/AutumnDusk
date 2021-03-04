@@ -1,0 +1,31 @@
+"workbench.colorCustomizations": {
+	"editor.background": "#20201C",
+	"editorCursor.foreground": "#FFD"
+},
+
+"editor.tokenColorCustomizations": {
+	"variables": "#DB9",
+	"functions": "#DB7",
+	"types": "#E65",
+	"comments": "#AC5",
+	"strings": "#E64",
+	"keywords": "#C62",
+	"numbers": "#DD8",
+	"textMateRules": [
+		{"scope": "punctuation","settings": {"foreground": "#DB9"}},
+		{"scope": "keyword.operator","settings": {"foreground": "#DB9"}},
+		{"scope": "constant.language","settings": {"foreground": "#DD8"}},
+		{"scope": "storage.type","settings": {"foreground": "#E65"}},
+		{"scope": "storage.modifier","settings": {"foreground": "#E64"}},
+		{"scope": "entity.name.function.preprocessor","settings": {"foreground": "#865"}},
+	]
+},
+
+"editor.semanticTokenColorCustomizations": {
+	"rules": {
+		"enumMember": "#DD8",
+		"macro": "#D47",
+		"namespace": "#E87",
+		"operator": "#ECA",
+	}
+}
