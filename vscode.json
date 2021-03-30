@@ -1,21 +1,25 @@
 "workbench.colorCustomizations": {
 	"editor.background": "#20201C",
-	"editorCursor.foreground": "#FFD"
+	"editorCursor.foreground": "#FFD",
+	"editor.foreground": "#C0A088",
+	"editor.selectionBackground": "#504030"
 },
 
 "editor.tokenColorCustomizations": {
-	"variables": "#DB9",
-	"functions": "#DB7",
-	"types": "#E65",
-	"comments": "#AC5",
-	"strings": "#E64",
-	"keywords": "#C62",
-	"numbers": "#DD8",
+	"variables": "#C0A088",
+	"functions": "#CA7",
+	"types": "#D65",
+	"comments": "#98b850",
+	"strings": "#D73",
+	"keywords": "#B63",
+	"numbers": "#CC8",
 	"textMateRules": [
-		{"scope": "punctuation","settings": {"foreground": "#DB9"}},
-		{"scope": "keyword.operator","settings": {"foreground": "#DB9"}},
-		{"scope": "constant.language","settings": {"foreground": "#DD8"}},
-		{"scope": "storage.type","settings": {"foreground": "#E65"}},
+		{"scope": "punctuation","settings": {"foreground": "#C0A088"}},
+		{"scope": "keyword.operator","settings": {"foreground": "#C0A088"}},
+		{"scope": "keyword.operator.sizeof","settings": {"foreground": "#C0A088"}},
+		{"scope": "keyword.other.unit","settings": {"foreground": "#CC8"}},
+		{"scope": "constant.language","settings": {"foreground": "#CC8"}},
+		{"scope": "storage.type","settings": {"foreground": "#D65"}},
 		{"scope": "storage.modifier","settings": {"foreground": "#E64"}},
 		{"scope": "entity.name.function.preprocessor","settings": {"foreground": "#865"}},
 	]
@@ -23,9 +27,9 @@
 
 "editor.semanticTokenColorCustomizations": {
 	"rules": {
-		"enumMember": "#DD8",
-		"macro": "#D47",
-		"namespace": "#E87",
+		"enumMember": "#CC8",
+		"macro": "#C47",
+		"namespace": "#D87",
 		"operator": "#ECA",
 	}
-}
+},
